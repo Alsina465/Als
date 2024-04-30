@@ -1,0 +1,9 @@
+snmptimeout=3
+tag=Alsina 465
+basevardir=/var/lib/ocsinventory-agent
+logfile=/var/log/ocs-inventory-agent.log
+snmpretry=2
+debug=1
+server=http://10.17.7.47/ocsinventory
+nosoftware=0
+snmp=1
