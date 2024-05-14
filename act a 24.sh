@@ -18,6 +18,9 @@ cd /home/sistemas
 wget  /home/sistemas 10.17.7.47/Mega/alsina/raiz/crearusuario.sh
 chmod +x *.sh
 
+sudo apt-get install notify-osd -y
+sudo apt-get install libnotify-bin -y
+sudo apt install dialog -y
 
 
 
