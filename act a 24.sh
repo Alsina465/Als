@@ -2,6 +2,7 @@
 #crontab -e
 
 sudo apt install net-tools
+sudi apt install git
 
 
 
