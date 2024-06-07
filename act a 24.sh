@@ -2,7 +2,7 @@
 #crontab -e
 
 sudo apt install net-tools
-sudi apt install git
+sudo apt install git
 
 
 
@@ -33,9 +33,13 @@ sudo apt install dialog -y
 cd /usr/share/xfce4/backdrops
 rm *.*
 
-wget /usr/share/xfce4/backdrops 10.17.7.47/Mega/alsina/backdrops/001.jpg
-wget /usr/share/xfce4/backdrops 10.17.7.47/Mega/alsina/backdrops/002.jpg
-wget /usr/share/xfce4/backdrops 10.17.7.47/Mega/alsina/backdrops/003.jpg
+wget /usr/share/xfce4/backdrops 10.17.7.47/Mega/alsina/backdrops/16.jpg
+wget /usr/share/xfce4/backdrops 10.17.7.47/Mega/alsina/backdrops/18.jpg
+wget /usr/share/xfce4/backdrops 10.17.7.47/Mega/alsina/backdrops/20.jpg
+wget /usr/share/xfce4/backdrops 10.17.7.47/Mega/alsina/backdrops/22.jpg
+wget /usr/share/xfce4/backdrops 10.17.7.47/Mega/alsina/backdrops/24.jpg
+wget /usr/share/xfce4/backdrops 10.17.7.47/Mega/alsina/backdrops/excel.png
+wget /usr/share/xfce4/backdrops 10.17.7.47/Mega/alsina/backdrops/word.png
 
 
 cd /alsina
