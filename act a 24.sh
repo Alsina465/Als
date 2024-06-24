@@ -41,12 +41,12 @@ wget /usr/share/xfce4/backdrops 10.17.7.47/Mega/alsina/backdrops/24.jpg
 wget /usr/share/xfce4/backdrops 10.17.7.47/Mega/alsina/backdrops/excel.png
 wget /usr/share/xfce4/backdrops 10.17.7.47/Mega/alsina/backdrops/word.png
 
-
+sudo apt-get   install -y   conky-all
 cd /alsina
 wget  /alsina 10.17.7.47/Mega/alsina/raiz/Panel
 cp /alsina/Panel /etc/conky/conky.conf
+cp /alsina/default-testpage.pdf  /usr/share/cups/data/default-testpage.pdf
 
-sudo apt-get   install -y   conky-all
 
 #nano /etc/crontab
 echo "* * * * 1 root /alsina/auto.sh"      >> /etc/crontab
